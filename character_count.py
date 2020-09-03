@@ -11,4 +11,9 @@ for character in message.upper():
     count.setdefault(character, 0)
     count[character] = count[character] + 1
 
-print(count)
+# print(count)
+import pprint
+# To print in a formatted way
+pprint.pprint(count)
+# Save the content to a file
+text_file = pprint.pformat(count)

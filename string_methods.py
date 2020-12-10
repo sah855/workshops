@@ -32,7 +32,7 @@ print('Testing Split() on specific alphabet "a" :' + str(test) )
 
 # Center alignment of test
 print('\nEneter your name :')
-name = input()
+name = input()A
 length = len(name)
 print('\nBelow is the sample of Center(), Leftjust() and rightjust()\n')
 print(name.center(length + 10, '+'))
@@ -41,8 +41,7 @@ print(name.ljust(length + 10, '+'))
 print(name.rjust(length + 10, '+'))
 
 # Using strip() for whitespace and any test
-print('\n')
-print('      rstrip() with spaces    '.rstrip())
+print('\n')print('      rstrip() with spaces    '.rstrip())
 print('      lstrip() with spaces    '.lstrip())
 print('SpamSpammSpamSpamBaconSpamEggsSpamSpam'.strip('Spam'))
 

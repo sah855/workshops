@@ -1,0 +1,858 @@
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+Empty list,,,,,,,,,,,,
+SC000_Token_Customergateway,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SC000_Token_Customergateway,"3,601","3,601","3,601",1,0,0,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,480.1,480.3,481.4,7,0,0,-,-,-,-,-,-
+SC000_Token_Customergateway,0.035,0.092,0.444,8,0,0,0.444,0.444,0.444,0.142,0.042,-
+delay,480,480.2,481.4,7,0,0,481,481,481,0.363,480.1,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN002_SearchCustomer_SearchByNameandAddress_US_CAM_HugeRoles,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN002_SearchCus..._SearchByNameandAddress_US_CAM_HugeRoles,"3,816","3,816","3,816",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,240.2,273,540,12,4,33.3,-,-,-,-,-,-
+SCN002_Searc...hByNameandAddress_US_CAM_HugeRoles_delay,240,240,240,13,0,0,240.1,240.1,240.1,0,0,-
+SCN002_Searc..._SearchByNameandAddress_US_CAM_hugeRoles,0.196,32.9,300,12,4,33.3,43.4,300.3,300.3,85,8.67,-
+transaction,0.001,0.001,0.002,12,0,0,0.002,0.002,0.002,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN014_SearchCustomer_FN_LN_City_Zip_Country_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN014_SearchCustomer_FN_LN_City_Zip_Country_US_CAM,"3,781","3,781","3,781",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,14.2,30.4,314,114,29,25.4,-,-,-,-,-,-
+SCN014_Searc...omer_FN_LN_City_Zip_Country_US_CAM_delay,14,14,14,115,0,0,14,14,14,0,0,-
+SCN014_SearchCustomer_FN_LN_City_Zip_Country_US_CAM,0.161,16.4,300,114,29,25.4,25.3,39.6,300.3,48,8.06,-
+transaction,0,0,0,114,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN014_SearchCustomer_FN_LN_Org_Ad1_Ad2_Zip_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN014_SearchCustomer_FN_LN_Org_Ad1_Ad2_Zip_CAM,"3,867","3,867","3,867",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,14.2,38.6,314,92,24,26.1,-,-,-,-,-,-
+SCN014_SearchCustomer_FN_LN_Org_Ad1_Ad2_Zip_CAM_delay,14,14,14,93,0,0,14,14,14,0,0,-
+SCN014_SearchCustomer_FN_LN_Org_Ad1_Ad2_Zip_CAM,0.219,24.6,300,92,24,26.1,21.4,300.3,300.3,73.4,9.21,-
+transaction,0,0,0.001,92,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN014_SearchCustomer_FN_LN_Zip_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN014_SearchCustomer_FN_LN_Zip_CAM,"3,596","3,596","3,596",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,14.2,31,315.3,116,45,38.8,-,-,-,-,-,-
+SCN014_SearchCustomer_FN_LN_Zip_CAM_delay,14,14,14.7,116,0,0,14,14,14.1,0.063,0,-
+SCN014_SearchCustomer_FN_LN_Zip_CAM,0.206,17,301.3,116,45,38.8,8.63,73.6,300.3,61,3.72,-
+transaction,0,0,0.001,116,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN014_SearchCustomer_SearchByAddress_Org_Region_ZIP_Indicat_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN014_SearchCus...archByAddress_Org_Region_ZIP_Indicat_CAM,"3,758","3,758","3,758",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,14.2,39.1,314,88,36,40.9,-,-,-,-,-,-
+SCN014_Searc...Address_Org_Region_ZIP_Indicat_CAM_delay,14,14,16.4,89,0,0,14,14,16.4,0.256,0,-
+SCN014_Searc...archByAddress_Org_Region_ZIP_Indicat_CAM,0.194,25.1,300,88,36,40.9,19.6,300.3,300.3,75,8.97,-
+transaction,0,0,0.001,88,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN016_SearchPerson_FN_LN_D_AE_AMER,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN016_SearchPerson_FN_LN_D_AE_AMER,"3,756","3,756","3,756",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,12.2,29.2,312,118,7,5.9,-,-,-,-,-,-
+SCN016_SearchPerson_FN_LN_D_AE_AMER_delay,12,12,12,119,0,0,12,12,12,0.012,12,-
+SCN016_SearchPerson_FN_LN_D_AE_AMER,0.205,17.2,300,118,7,5.9,1.68,300.3,300.3,67.2,2.11,-
+transaction,0,0,0.001,118,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN017_SearchPerson_ByPhone_D_AE_AMER,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN017_SearchPerson_ByPhone_D_AE_AMER,"3,596","3,596","3,596",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,12.2,58.8,312.1,61,10,16.4,-,-,-,-,-,-
+SCN017_SearchPerson_ByPhone_D_AE_AMER_delay,12,12,12,61,0,0,12,12,12,0.012,12,-
+SCN017_SearchPerson_ByPhone_D_AE_AMER,0.218,46.8,300.1,61,10,16.4,300.3,300.3,300.3,107.6,30.6,-
+transaction,0,0,0,61,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN020_SearchPerson_ByPhone_D_APJ,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN020_SearchPerson_ByPhone_D_APJ,"3,599","3,599","3,599",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,12.2,37.8,312,95,11,11.6,-,-,-,-,-,-
+SCN020_SearchPerson_ByPhone_D_APJ_delay,12,12,13.3,95,0,0,12,12,13.3,0.134,12,-
+SCN020_SearchPerson_ByPhone_D_APJ,0.197,25.8,300,95,11,11.6,2.46,300.3,300.3,83.7,11,-
+transaction,0,0,0,95,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN021_SearchPerson_ByPhone_D_EMEA,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN021_SearchPerson_ByPhone_D_EMEA,"3,846","3,846","3,846",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,12.2,38.8,312.1,91,10,11,-,-,-,-,-,-
+SCN021_SearchPerson_ByPhone_D_EMEA_delay,12,12,12,92,0,0,12,12,12,0.012,12,-
+SCN021_SearchPerson_ByPhone_D_EMEA,0.218,26.8,300.1,91,10,11,1.71,300.3,300.3,85.4,11.5,-
+transaction,0,0,0,91,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN023_SearchOrganization_ORG_D_AE_AMER,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN023_SearchOrganization_ORG_D_AE_AMER,"3,820","3,820","3,820",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,16.2,36.5,316,96,13,13.5,-,-,-,-,-,-
+SCN023_SearchOrganization_ORG_D_AE_AMER_delay,16,16,16,97,0,0,16,16,16,0,0,-
+SCN023_SearchOrganization_ORG_D_AE_AMER,0.175,20.5,300,96,13,13.5,1.16,300.3,300.3,73.8,5.37,-
+transaction,0,0,0,96,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN024_SearchOrganization_CompanyName_Zippostalcode_D_AE_AMER,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN024_SearchOrg...tion_CompanyName_Zippostalcode_D_AE_AMER,"3,615","3,615","3,615",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,16.2,38.2,316.1,93,9,9.7,-,-,-,-,-,-
+SCN024_Searc...ompanyName_Zippostalcode_D_AE_AMER_delay,16,16,16,94,0,0,16,16,16,0,0,-
+SCN024_Searc...tion_CompanyName_Zippostalcode_D_AE_AMER,0.195,22.2,300,93,9,9.7,48.8,91.8,300.3,56.8,10.92,-
+transaction,0,0,0.001,93,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN027_CreateCustomer_BU11_Any_Indct_Y_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN027_CreateCustomer_BU11_Any_Indct_Y_CAM,"3,583","3,583","3,583",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.78,4.29,125.7,834,2,0.2,-,-,-,-,-,-
+SCN027_CreateCustomer_BU11_Any_Indct_Y_CAM_delay,1,1,2.22,835,0,0,1,1,1.04,0.05,1,-
+SCN027_CreateCustomer_BU11_Any_Indct_Y_CAM,0.775,3.29,124.7,834,2,0.2,4.28,5.3,7.21,7.17,2.76,-
+transaction,0,0,0.001,834,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN027_CreateCustomer_BU11_Any_IndctrBlank_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN027_CreateCustomer_BU11_Any_IndctrBlank_CAM,"3,585","3,585","3,585",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.76,4.29,123.6,834,2,0.2,-,-,-,-,-,-
+SCN027_CreateCustomer_BU11_Any_IndctrBlank_CAM_delay,1,1,3,835,0,0,1,1,1.04,0.083,1,-
+SCN027_CreateCustomer_BU11_Any_IndctrBlank_CAM,0.756,3.29,122.6,834,2,0.2,4.19,5.42,8.3,7.06,2.77,-
+transaction,0,0,0.001,834,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_Bill_Contact_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN027_CreateCustomer_BUID11_Bill_Contact_CAM,"3,552","3,552","3,552",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.03,4.04,123.8,877,2,0.2,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_Bill_Contact_delay,0.75,0.75,0.77,878,0,0,0.751,0.751,0.752,<0.01,0.75,-
+SCN027_CreateCustomer_BUID11_Bill_Contact,0.281,3.29,123,877,2,0.2,4.09,5.48,13.8,6.94,2.72,-
+transaction,0,0,0.001,877,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_Bill_Contact_SOrg_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN027_CreateCustomer_BUID11_Bill_Contact_SOrg_CAM,"3,560","3,560","3,560",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.12,4.07,123.5,874,2,0.2,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_Bill_Contact_SOrg_CAM_delay,0.75,0.75,0.756,875,0,0,0.751,0.751,0.752,<0.01,0.75,-
+SCN027_CreateCustomer_BUID11_Bill_Contact_SOrg_CAM,0.375,3.32,122.8,874,2,0.2,4.19,5.48,12.9,7.19,2.74,-
+transaction,0,0,0.001,874,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_Bill_ShipContact_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN027_CreateCustomer_BUID11_Bill_ShipContact_CAM,"3,586","3,586","3,586",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.74,4.52,123.9,792,3,0.4,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_Bill_ShipContact_CAM_delay,0.75,0.755,2.4,793,0,0,0.751,0.752,0.812,0.068,0.75,-
+SCN027_CreateCustomer_BUID11_Bill_ShipContact_CAM,0.993,3.77,123.1,792,3,0.4,4.69,5.8,13.3,7.39,3.16,-
+transaction,0,0,0.001,792,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_Bill_ShipContact_SOrgCAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN027_CreateCustomer_BUID11_Bill_ShipContact_SOrgCAM,"3,561","3,561","3,561",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.3,4.55,123.8,782,2,0.3,-,-,-,-,-,-
+SCN027_Creat...er_BUID11_Bill_ShipContact_SOrgCAM_delay,0.75,0.75,0.769,783,0,0,0.751,0.751,0.752,<0.01,0.75,-
+SCN027_CreateCustomer_BUID11_Bill_ShipContact_SOrgCAM,0.55,3.8,123,782,2,0.3,5.01,5.83,13.2,7.53,3.19,-
+transaction,0,0,0.001,782,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_PrimBillContact_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN027_CreateCustomer_BUID11_PrimBillContact_CAM,"3,583","3,583","3,583",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.54,4.04,123.3,887,11,1.2,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_PrimBillContact_CAM_delay,0.75,0.755,3.4,887,0,0,0.751,0.752,0.819,0.091,0.75,-
+SCN027_CreateCustomer_BUID11_PrimBillContact_CAM,0.786,3.28,122.6,887,11,1.2,4.2,5.02,7.61,6.72,2.82,-
+transaction,0,0,0.002,887,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_PrimShipContact_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN027_CreateCustomer_BUID11_PrimShipContact_CAM,"3,557","3,557","3,557",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.44,3.93,123.6,905,3,0.3,-,-,-,-,-,-
+SCN027_CreateCustomer_BUID11_PrimShipContact_CAM_delay,0.75,0.75,0.757,906,0,0,0.751,0.751,0.752,<0.01,0.75,-
+SCN027_CreateCustomer_BUID11_PrimShipContact_CAM,0.687,3.17,122.9,905,3,0.3,4.04,5.12,8.04,6.85,2.68,-
+transaction,0,0,0.001,905,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_CAM_DB,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_CAM_DB,"3,754","3,754","3,754",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.686,26.8,301.9,129,60,46.5,-,-,-,-,-,-
+SCN031_GetCustomer_CAM_DB_delay,0.5,0.523,2.01,130,0,0,0.501,0.501,1.87,0.179,0.5,-
+SCN031_GetCustomer_CAM_DB,0.183,26.2,301.3,129,60,46.5,3.27,300.3,300.3,84.1,11.1,-
+transaction,0.001,0.004,0.042,129,0,0,0.006,0.008,0.016,0.004,0.004,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_CAM_Hugeroles_DB,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_CAM_Hugeroles_DB,"3,685","3,685","3,685",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,120.3,136,420,24,1,4.2,-,-,-,-,-,-
+SCN031_GetCustomer_CAM_Hugeroles_DB_delay,120,120,120,25,0,0,119.9,119.9,119.9,0,0,-
+SCN031_GetCustomer_CAM_Hugeroles_DB,0.268,16,300,24,1,4.2,18.7,31.1,300.3,60.9,2.52,-
+transaction,0,0.001,0.002,24,0,0,0.002,0.002,0.002,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_FiveCustomer_NoAUT,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_FiveCustomer_NoAUT,"3,782","3,782","3,782",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.689,24.9,301.8,140,76,54.3,-,-,-,-,-,-
+SCN031_GetCustomer_FiveCustomer_NoAUT_delay,0.5,0.5,0.505,141,0,0,0.501,0.501,0.501,<0.01,0.5,-
+SCN031_GetCustomer_FiveCustomer_NoAUT,0.189,24.4,301.3,140,76,54.3,5.46,300.3,300.3,80.9,10.31,-
+transaction,0,0,0,140,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_FourCustomer_NoAUT,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_FourCustomer_NoAUT,"3,816","3,816","3,816",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.71,18.1,300.6,194,80,41.2,-,-,-,-,-,-
+SCN031_GetCustomer_FourCustomer_NoAUT_delay,0.5,0.5,0.502,195,0,0,0.501,0.501,0.502,<0.01,0.5,-
+SCN031_GetCustomer_FourCustomer_NoAUT,0.209,17.6,300,194,80,41.2,1.57,300.3,300.3,69.5,2.38,-
+transaction,0,0,0.001,194,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_MultiCustomer_HugeRoles_NoAUT,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_MultiCustomer_HugeRoles_NoAUT,"3,600","3,600","3,600",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,120.5,133.3,420.1,27,1,3.7,-,-,-,-,-,-
+SCN031_GetCustomer_MultiCustomer_HugeRoles_NoAUT_delay,120,120,120,27,0,0,119.9,119.9,119.9,0,0,-
+SCN031_GetCustomer_MultiCustomer_HugeRoles_NoAUT,0.507,13.3,300,27,1,3.7,8.25,11.1,300.3,57.4,1.93,-
+transaction,0,0,0,27,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_Multi_CAM_Hugeroles_DB,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_Multi_CAM_Hugeroles_DB,"3,763","3,763","3,763",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,121.2,123.8,148.6,27,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_Multi_CAM_Hugeroles_DB_delay,120,120,120,28,0,0,119.9,119.9,119.9,0,0,-
+SCN031_GetCustomer_Multi_CAM_Hugeroles_DB,1.18,3.79,28.6,27,0,0,2.24,27.6,28.6,7.02,1.87,-
+transaction,0,0,0.001,27,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_PageSize_3000_NoAUT,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_PageSize_3000_NoAUT,"3,715","3,715","3,715",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.71,33.5,300.5,102,57,55.9,-,-,-,-,-,-
+SCN031_GetCustomer_PageSize_3000_NoAUT_delay,0.5,0.5,0.502,103,0,0,0.501,0.501,0.502,<0.01,0.5,-
+SCN031_GetCustomer_PageSize_3000_NoAUT_NoAUT,0.209,33,300,102,57,55.9,300.3,300.3,300.3,93.4,17.2,-
+transaction,0,0,0.001,102,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_SingleCustomer_NoAUT,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_SingleCustomer_NoAUT,"3,824","3,824","3,824",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.691,16.8,302.5,210,104,49.5,-,-,-,-,-,-
+SCN031_GetCustomer_SingleCustomer_NoAUT_delay,0.5,0.5,0.548,211,0,0,0.501,0.501,0.511,0.003,0.5,-
+SCN031_GetCustomer_SingleCustomer_NoAUT,0.19,16.3,302,210,104,49.5,0.736,300.3,300.3,67,0.593,-
+transaction,0,0,0.001,210,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_TenCustomer_NoAUT,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_TenCustomer_NoAUT,"3,786","3,786","3,786",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.71,24.7,300.6,141,62,44,-,-,-,-,-,-
+SCN031_GetCustomer_TenCustomer_NoAUT_delay,0.5,0.5,0.502,142,0,0,0.501,0.501,0.502,<0.01,0.5,-
+SCN031_GetCustomer_TenCustomer_NoAUT,0.21,24.2,300.1,141,62,44,2.34,300.3,300.3,80.6,8.05,-
+transaction,0,0,0.001,141,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_ThreeCustomer_NoAUT,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_ThreeCustomer_NoAUT,"3,828","3,828","3,828",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.689,17.7,300.6,199,78,39.2,-,-,-,-,-,-
+SCN031_GetCustomer_ThreeCustomer_NoAUT_delay,0.5,0.5,0.502,200,0,0,0.501,0.501,0.501,<0.01,0.5,-
+SCN031_GetCustomer_ThreeCustomer_NoAUT,0.188,17.2,300.1,199,78,39.2,2.21,300.3,300.3,68.7,2.36,-
+transaction,0,0,0.001,199,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN031_GetCustomer_TwoCustomer_NoAUT,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN031_GetCustomer_TwoCustomer_NoAUT,"3,757","3,757","3,757",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.691,23.4,300.5,148,65,43.9,-,-,-,-,-,-
+SCN031_GetCustomer_TwoCustomer_NoAUT_delay,0.5,0.5,0.511,149,0,0,0.501,0.501,0.504,0.001,0.5,-
+SCN031_GetCustomer_TwoCustomer_NoAUT,0.191,22.9,300,148,65,43.9,1.05,300.3,300.3,78.9,7.38,-
+transaction,0,0,0.001,148,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN032_GetCustomer_FiveCustomer_ALL_Billing_Shipping,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN032_GetCustomer_FiveCustomer_ALL_Billing_Shipping,"3,841","3,841","3,841",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.719,20.5,301.8,173,81,46.8,-,-,-,-,-,-
+SCN032_GetCu..._FiveCustomer_ALL_Billing_Shipping_delay,0.5,0.501,0.562,174,0,0,0.501,0.501,0.544,0.006,0.5,-
+SCN032_GetCustomer_FiveCustomer_ALL_Billing_Shipping,0.219,20,301.3,173,81,46.8,1.2,300.3,300.3,73.5,4.81,-
+transaction,0,0,0.001,173,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN032_GetCustomer_FourCustomer_ALL_Billing_Shipping,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN032_GetCustomer_FourCustomer_ALL_Billing_Shipping,"3,723","3,723","3,723",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.709,32.3,300.6,106,53,50,-,-,-,-,-,-
+SCN032_GetCu..._FourCustomer_ALL_Billing_Shipping_delay,0.5,0.5,0.514,107,0,0,0.501,0.501,0.502,0.001,0.5,-
+SCN032_GetCustomer_FourCustomer_ALL_Billing_Shipping,0.209,31.8,300.1,106,53,50,300.3,300.3,300.3,91.8,16.5,-
+transaction,0,0,0.001,106,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN032_GetCustomer_SingleCustomer_Billing,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN032_GetCustomer_SingleCustomer_Billing,"3,843","3,843","3,843",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.698,14.2,300.5,250,103,41.2,-,-,-,-,-,-
+SCN032_GetCustomer_SingleCustomer_Billing_delay,0.5,0.5,0.504,251,0,0,0.501,0.501,0.502,<0.01,0.5,-
+SCN032_GetCustomer_SingleCustomer_Billing,0.198,13.7,300,250,103,41.2,0.702,1.97,300.3,61.6,0.368,-
+transaction,0,0,0.001,250,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN032_GetCustomer_SingleCustomer_Shipping,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN032_GetCustomer_SingleCustomer_Shipping,"3,623","3,623","3,623",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.696,16,301.8,208,92,44.2,-,-,-,-,-,-
+SCN032_GetCustomer_SingleCustomer_Shipping_delay,0.5,0.502,0.787,209,0,0,0.501,0.502,0.545,0.022,0.5,-
+SCN032_GetCustomer_SingleCustomer_Shipping,0.195,15.5,301.3,208,92,44.2,0.807,120.2,300.3,64.7,0.504,-
+transaction,0,0,0,208,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN032_GetCustomer_SngleCustomer_Billing_Phys,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN032_GetCustomer_SngleCustomer_Billing_Phys,"3,877","3,877","3,877",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.658,25,300.5,143,78,54.5,-,-,-,-,-,-
+SCN032_GetCustomer_SngleCustomer_Billing_Phys_delay,0.5,0.5,0.502,144,0,0,0.501,0.501,0.502,<0.01,0.5,-
+SCN032_GetCustomer_SngleCustomer_Billing_Phys,0.156,24.5,300,143,78,54.5,2.29,300.3,300.3,80.5,8.62,-
+transaction,0,0,0,143,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN032_GetCustomer_SngleCustomer_Billing_Shipping,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN032_GetCustomer_SngleCustomer_Billing_Shipping,"3,771","3,771","3,771",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.697,25.1,301.8,138,66,47.8,-,-,-,-,-,-
+SCN032_GetCustomer_SngleCustomer_Billing_Shipping_delay,0.5,0.5,0.532,139,0,0,0.501,0.502,0.506,0.003,0.5,-
+SCN032_GetCustomer_SngleCustomer_Billing_Shipping,0.196,24.6,301.3,138,66,47.8,4.66,300.3,300.3,81.5,10.4,-
+transaction,0,0,0.001,138,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN032_GetCustomer_TwoCustomer_Billing_Shipping,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN032_GetCustomer_TwoCustomer_Billing_Shipping,"3,622","3,622","3,622",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.707,15.6,301.8,213,97,45.5,-,-,-,-,-,-
+SCN032_GetCustomer_TwoCustomer_Billing_Shipping_delay,0.5,0.501,0.532,214,0,0,0.501,0.502,0.522,0.004,0.5,-
+SCN032_GetCustomer_TwoCustomer_Billing_Shipping,0.206,15.1,301.3,213,97,45.5,0.707,120.2,300.3,64,0.47,-
+transaction,0,0,0,213,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN048_AddContacts_CAM_BILL_Prim_BILL_StdFInd_N,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN048_AddContacts_CAM_BILL_Prim_BILL_StdFInd_N,"3,581","3,581","3,581",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,8.24,10.73,130.8,333,321,96.4,-,-,-,-,-,-
+SCN048_AddContacts_CAM_BILL_Prim_BILL_StdFInd_N_delay,8,8,8.01,333,0,0,8,8,8,<0.01,0,-
+SCN048_AddContacts_CAM_BILL_Prim_BILL_StdFInd_N,0.242,2.73,122.8,333,321,96.4,2.97,3.25,7.33,9.69,1.82,-
+transaction,0,0,0.001,333,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN048_AddContacts_CAM_BILL_Prim_BILL_StdFInd_Y,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN048_AddContacts_CAM_BILL_Prim_BILL_StdFInd_Y,"3,594","3,594","3,594",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,8.24,10.92,127.1,328,311,94.8,-,-,-,-,-,-
+SCN048_AddContacts_CAM_BILL_Prim_BILL_StdFInd_Y_delay,8,8.01,9.45,329,0,0,8,8,8.06,0.081,0,-
+SCN048_AddContacts_CAM_BILL_Prim_BILL_StdFInd_Y,0.239,2.92,119.1,328,311,94.8,2.97,3.26,22.5,10.92,1.81,-
+transaction,0,0,0.001,328,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN048_AddContacts_CAM_Ship_Prim_Ship_StdFInd_N,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN048_AddContacts_CAM_Ship_Prim_Ship_StdFInd_N,"3,583","3,583","3,583",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,8.24,10.94,122,327,125,38.2,-,-,-,-,-,-
+SCN048_AddContacts_CAM_Ship_Prim_Ship_StdFInd_N_delay,8,8,8.01,327,0,0,8,8,8,0.001,0,-
+SCN048_AddContacts_CAM_Ship_Prim_Ship_StdFInd_N,0.241,2.94,114,327,125,38.2,3.05,3.26,20.8,10.27,1.88,-
+transaction,0,0,0.001,327,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN048_AddContacts_CAM_Ship_Prim_Ship_StdFInd_Y,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN048_AddContacts_CAM_Ship_Prim_Ship_StdFInd_Y,"3,591","3,591","3,591",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,8.23,10.83,125.2,331,132,39.9,-,-,-,-,-,-
+SCN048_AddContacts_CAM_Ship_Prim_Ship_StdFInd_Y_delay,8,8.01,9.31,331,0,0,8,8,8.04,0.072,0,-
+SCN048_AddContacts_CAM_Ship_Prim_Ship_StdFInd_Y,0.233,2.82,117.2,331,132,39.9,2.97,3.12,44.9,9.35,1.81,-
+transaction,0,0,0.001,331,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN052_AddNotes_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN052_AddNotes_CAM,"3,573","3,573","3,573",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,6.21,7.66,14.8,466,193,41.4,-,-,-,-,-,-
+SCN052_AddNotes_CAM_delay,6,6,6.01,466,0,0,6,6,6,0,0,-
+SCN052_AddNotes_CAM,0.212,1.66,8.8,466,193,41.4,2.72,2.96,4.76,1.22,1.61,-
+transaction,0,0,0.001,466,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN054_AddPartyContactMethods_Billing_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN054_AddPartyContactMethods_Billing_CAM,"3,564","3,564","3,564",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,2.36,5.55,123.9,642,5,0.8,-,-,-,-,-,-
+SCN054_AddPartyContactMethods_Billing_CAM_delay,2,2,2.01,642,0,0,2,2,2,<0.01,0,-
+SCN054_AddPartyContactMethods_Billing_CAM,0.359,3.55,121.9,642,5,0.8,3.67,4.75,15.9,7.43,2.95,-
+transaction,0,0,0.002,642,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN055_UpdateCustomer_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN055_UpdateCustomer_CAM,"3,586","3,586","3,586",1,0,0,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,12.3,14.1,24.7,254,0,0,-,-,-,-,-,-
+SCN055_UpdateCustomer_CAM_delay,12,12,12,254,0,0,12,12,12,0.012,12,-
+SCN055_UpdateCustomer_CAM,0.271,2.09,12.7,254,0,0,2.85,3.28,4.63,1.22,2.03,-
+transaction,0,0,0.001,254,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN057_UpdatePartyContactMethods_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN057_UpdatePartyContactMethods_CAM,"3,587","3,587","3,587",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,12.3,15.4,70.2,232,12,5.2,-,-,-,-,-,-
+SCN057_UpdatePartyContactMethods_CAM_delay,12,12,12,232,0,0,12,12,12,0.012,12,-
+SCN057_UpdatePartyContactMethods_CAM,0.29,3.42,58.2,232,12,5.2,3.28,3.6,46.1,6.69,2.43,-
+transaction,0,0.001,0.004,232,0,0,0.002,0.002,0.003,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN058_UpdatePartyAddress_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN058_UpdatePartyAddress_CAM,"3,572","3,572","3,572",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.21,2.78,22,"1,285",538,41.9,-,-,-,-,-,-
+SCN058_UpdatePartyAddress_CAM_delay,1,1,1.75,"1,286",0,0,1,1,1.02,0.029,1,-
+SCN058_UpdatePartyAddress_CAM,0.208,1.77,21,"1,285",538,41.9,2.89,3.11,4.29,1.38,1.72,-
+transaction,0,0.001,0.078,"1,285",0,0,0.002,0.002,0.004,0.003,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN059_PickACustomer_CAM_WithCustNum,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN059_PickACustomer_CAM_WithCustNum,"3,841","3,845","3,850",2,2,100,-,-,-,-,-,-
+Init,0,0,0,2,0,0,-,-,-,-,-,-
+Actions,5.27,19.7,306.4,359,159,44.3,-,-,-,-,-,-
+SCN059_PickACustomer_CAM_WithCustNum_delay,5,5,5.16,361,0,0,5.01,5.01,5.03,0.01,5,-
+SCN059_PickACustomer_CAM_WithCustNum,0.267,14.7,301.4,359,159,44.3,3.68,7.11,300.3,59.7,2.32,-
+transaction,0,0.001,0.029,359,0,0,0.002,0.002,0.003,0.002,0.001,-
+End,0,0,0,2,0,0,-,-,-,-,-,-
+SCN093_PickACustomer_CAM_WithoutCustNum,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN093_PickACustomer_CAM_WithoutCustNum,"3,788","3,788","3,788",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,5.45,26.4,305,132,8,6.1,-,-,-,-,-,-
+SCN093_PickACustomer_CAM_WithoutCustNum_delay,5,5,5.02,133,0,0,5.01,5.01,5.02,0.004,5,-
+SCN093_PickACustomer_CAM_WithoutCustNum,0.45,21.4,300,132,8,6.1,7.61,300.3,300.3,71.2,6.05,-
+transaction,0,0,0,132,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN095_GetRelationship,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN095_GetRelationship,"3,717","3,717","3,717",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.2,45.9,320.1,74,6,8.1,-,-,-,-,-,-
+SCN095_GetRelationship_delay,20,20,20,75,0,0,20,20,20,0,0,-
+SCN095_GetRelationship,0.21,25.9,300.1,74,6,8.1,2.84,300.3,300.3,82.1,10.69,-
+transaction,0,0,0.001,74,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN104_SearchPerson_SearchByNameState_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN104_SearchPerson_SearchByNameState_US_CAM,"3,594","3,594","3,594",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,15.2,30.9,315.1,116,6,5.2,-,-,-,-,-,-
+SCN104_SearchPerson_SearchByNameState_US_CAM_delay,15,15,15,116,0,0,15,15,15,0,0,-
+SCN104_SearchPerson_SearchByNameState_US_CAM,0.184,15.9,300.1,116,6,5.2,0.836,300.3,300.3,66.7,0.442,-
+transaction,0,0,0.001,116,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN105_SearchPerson_SearchByNamePhoneAddress_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN105_SearchPerson_SearchByNamePhoneAddress_US_CAM,"3,806","3,806","3,806",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,10.2,24.8,311.3,141,9,6.4,-,-,-,-,-,-
+SCN105_Searc...on_SearchByNamePhoneAddress_US_CAM_delay,10,10.01,10.79,142,0,0,10,10,10.75,0.091,0,-
+SCN105_SearchPerson_SearchByNamePhoneAddress_US_CAM,0.202,14.8,301.3,141,9,6.4,1.27,120.4,300.3,59,1.5,-
+transaction,0,0,0,141,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN106_SearchPerson_SearchByNameCityState_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN106_SearchPerson_SearchByNameCityState_US_CAM,"3,595","3,595","3,595",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.2,37.4,320.1,96,6,6.2,-,-,-,-,-,-
+SCN106_SearchPerson_SearchByNameCityState_US_CAM_delay,20,20,20,96,0,0,20,20,20,0,0,-
+SCN106_SearchPerson_SearchByNameCityState_US_CAM,0.2,17.4,300,96,6,6.2,0.9,300.3,300.3,67.9,1.92,-
+transaction,0,0,0.001,96,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN107_SearchOrganization_SearchByCustomerNumber_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN107_SearchOrganization_SearchByCustomerNumber_US_CAM,"3,593","3,593","3,593",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,16.2,30.9,316,116,6,5.2,-,-,-,-,-,-
+SCN107_Searc...tion_SearchByCustomerNumber_US_CAM_delay,16,16,16,116,0,0,16,16,16,0,0,-
+SCN107_SearchOrganization_SearchByCustomerNumber_US_CAM,0.188,14.9,300,116,6,5.2,2.63,150.2,300.3,62.4,0.781,-
+transaction,0,0,0,116,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN110_SearchOrganization_SearchByCompanyNameCityState_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN110_SearchOrg...tion_SearchByCompanyNameCityState_US_CAM,"3,810","3,810","3,810",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,16.2,38.8,316.1,90,13,14.4,-,-,-,-,-,-
+SCN110_Searc...earchByCompanyNameCityState_US_CAM_delay,16,16,16,91,0,0,16,16,16,0,0,-
+SCN110_Searc...tion_SearchByCompanyNameCityState_US_CAM,0.189,22.8,300.1,90,13,14.4,1.41,300.3,300.3,76.4,6.82,-
+transaction,0,0,0.001,90,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN111_SearchOrganization_SearchByCompanyName_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN111_SearchOrganization_SearchByCompanyName_US_CAM,"3,767","3,767","3,767",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,8.2,27.9,309.3,124,12,9.7,-,-,-,-,-,-
+SCN111_Searc...ization_SearchByCompanyName_US_CAM_delay,8,8,8.13,125,0,0,8,8,8.12,0.016,0,-
+SCN111_SearchOrganization_SearchByCompanyName_US_CAM,0.199,19.9,301.3,124,12,9.7,1.37,300.3,300.3,74,3.27,-
+transaction,0,0,0,124,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN118_SearchPerson_SearchByNameCompanyName_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN118_SearchPerson_SearchByNameCompanyName_US_CAM,"3,597","3,597","3,597",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.2,38.2,320,94,11,11.7,-,-,-,-,-,-
+SCN118_SearchPerson_SearchByNameCompanyName_US_CAM_delay,20,20,20,94,0,0,20,20,20,0,0,-
+SCN118_SearchPerson_SearchByNameCompanyName_US_CAM,0.21,18.2,300,94,11,11.7,1.94,300.3,300.3,69,2.42,-
+transaction,0,0,0,94,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN120_SearchPerson_SearchByFirstNameLastName_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN120_SearchPerson_SearchByFirstNameLastName_US_CAM,"3,597","3,597","3,597",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.2,25.8,321.3,139,7,5,-,-,-,-,-,-
+SCN120_Searc...n_SearchByFirstNameLastName_US_CAM_delay,20,20,20.1,139,0,0,20,20,20,0.008,0,-
+SCN120_SearchPerson_SearchByFirstNameLastName_US_CAM,0.222,5.81,301.3,139,7,5,0.981,1.49,300.3,37.4,0.537,-
+transaction,0,0,0,139,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN123_SearchOrganization_SearchByPhone_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN123_SearchOrganization_SearchByPhone_US_CAM,"3,848","3,848","3,848",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,16.2,32.1,316,110,6,5.5,-,-,-,-,-,-
+SCN123_SearchOrganization_SearchByPhone_US_CAM_delay,16,16,17.3,111,0,0,16,16,16,0.125,0,-
+SCN123_SearchOrganization_SearchByPhone_US_CAM,0.232,16.1,300,110,6,5.5,3.88,128.1,300.3,63.5,1.43,-
+transaction,0,0,0,110,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN126_SearchOrganization_SearchByDuns_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN126_SearchOrganization_SearchByDuns_US_CAM,"3,826","3,826","3,826",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,16.2,40.8,316.1,86,7,8.1,-,-,-,-,-,-
+SCN126_SearchOrganization_SearchByDuns_US_CAM_delay,16,16,16,87,0,0,16,16,16,0,0,-
+SCN126_SearchOrganization_SearchByDuns_US_CAM,0.204,24.8,300,86,7,8.1,1.01,300.3,300.3,82.5,8.22,-
+transaction,0,0,0.001,86,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN137_SearchOrganization_SearchByCompanyNameCity_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN137_SearchOrganization_SearchByCompanyNameCity_US_CAM,"3,594","3,594","3,594",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,16.2,47.1,316,76,12,15.8,-,-,-,-,-,-
+SCN137_Searc...ion_SearchByCompanyNameCity_US_CAM_delay,16,16,16,76,0,0,16,16,16,0,0,-
+SCN137_SearchOrganization_SearchByCompanyNameCity_US_CAM,0.178,31.1,300,76,12,15.8,128.1,300.3,300.3,88.1,16.9,-
+transaction,0,0,0,76,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN162_GetRelationship_Funder,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN162_GetRelationship_Funder,"3,842","3,842","3,842",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.2,47.4,320.1,81,7,8.6,-,-,-,-,-,-
+SCN162_GetRelationship_Funder_delay,20,20,20,81,0,0,20,20,20,0.004,0,-
+SCN162_GetRelationship_Funder,0.206,27.4,300,81,7,8.6,4.13,300.3,300.3,84.4,10.01,-
+transaction,0,0,0.001,81,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN185_UpdateCustomer_CN_LN_RelTerm_RelType02_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN185_UpdateCustomer_CN_LN_RelTerm_RelType02_CAM,"3,597","3,597","3,597",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.3,23.4,54.1,153,8,5.2,-,-,-,-,-,-
+SCN185_UpdateCustomer_CN_LN_RelTerm_RelType02_CAM_delay,20,20,21.3,153,0,0,20,20,20.1,0.11,20,-
+SCN185_UpdateCustomer_CN_LN_RelTerm_RelType02_CAM,0.272,3.42,34.1,153,8,5.2,4.85,7.97,13.8,3.23,2.98,-
+transaction,0,0.001,0.049,153,0,0,0.002,0.002,0.003,0.004,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN206_GetCamLocation_NoFilter,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN206_GetCamLocation_NoFilter,"3,599","3,599","3,599",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.2,36.7,321.3,98,7,7.1,-,-,-,-,-,-
+SCN206_GetCamLocation_NoFilter_delay,20,20,20.2,98,0,0,20,20,20.2,0.026,0,-
+SCN206_GetCamLocation_NoFilter,0.193,16.7,301.3,98,7,7.1,2.61,300.3,301.5,66.2,1.47,-
+transaction,0,0.001,0.004,98,0,0,0.002,0.002,0.004,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN210_GetRelatedCustomerNumbers_SplitCust_Vendor_Active,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN210_GetRelatedCustomerNumbers_SplitCust_Vendor_Active,"3,587","3,587","3,587",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,12.2,31.1,310,115,7,6.1,-,-,-,-,-,-
+SCN210_GetRe...merNumbers_SplitCust_Vendor_Active_delay,10,10,10.01,116,0,0,10,10,10,0,0,-
+SCN210_GetRelatedCustomerNumbers_SplitCust_Vendor_Active,2.16,21.1,300,115,7,6.1,5.87,300.3,300.3,71.4,5.9,-
+transaction,0,0,0.001,115,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN219_GetCAMLocationIDs_ZipPostalCode,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN219_GetCAMLocationIDs_ZipPostalCode,"3,594","3,594","3,594",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,15.2,33,315.1,109,43,39.4,-,-,-,-,-,-
+SCN219_GetCAMLocationIDs_ZipPostalCode_delay,15,15,15,109,0,0,15,15,15,0,0,-
+SCN219_GetCAMLocationIDs_ZipPostalCode,0.223,18,300,109,43,39.4,2.66,300.3,300.3,68.5,1.59,-
+transaction,0,0.001,0.003,109,0,0,0.002,0.002,0.003,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN219_GetCAMLocationIDs_ZipPostalCode_Partial,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN219_GetCAMLocationIDs_ZipPostalCode_Partial,"3,599","3,599","3,599",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,15.2,49.9,316.3,72,32,44.4,-,-,-,-,-,-
+SCN219_GetCAMLocationIDs_ZipPostalCode_Partial_delay,15,15,15.1,72,0,0,15,15,15.1,0.012,0,-
+SCN219_GetCAMLocationIDs_ZipPostalCode_Partial,0.2,34.9,301.3,72,32,44.4,300.3,300.3,301.5,94.5,20.2,-
+transaction,0.001,0.001,0.033,72,0,0,0.002,0.002,0.033,0.004,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN234_GetCAMLocationIDs_AddrLine1_Wildcard,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN234_GetCAMLocationIDs_AddrLine1_Wildcard,"3,598","3,598","3,598",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.2,32.6,321.3,110,52,47.3,-,-,-,-,-,-
+SCN234_GetCAMLocationIDs_AddrLine1_Wildcard_delay,20,20,20,110,0,0,20,20,20,0.007,0,-
+SCN234_GetCAMLocationIDs_AddrLine1_Wildcard,0.224,12.6,301.3,110,52,47.3,2.94,4.39,300.3,56.2,1.77,-
+transaction,0,0.001,0.004,110,0,0,0.002,0.002,0.004,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN238_GetCAMLocationIDs_Org_Wildcard,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN238_GetCAMLocationIDs_Org_Wildcard,"3,598","3,598","3,598",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,20.2,43.3,321.1,83,35,42.2,-,-,-,-,-,-
+SCN238_GetCAMLocationIDs_Org_Wildcard_delay,20,20,23,83,0,0,20,20,23,0.33,20,-
+SCN238_GetCAMLocationIDs_Org_Wildcard,0.193,23.2,301.1,83,35,42.2,2.87,300.3,300.9,77.8,5.77,-
+transaction,0,0.001,0.004,83,0,0,0.002,0.002,0.004,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN242_PickACustomer_ShippingOnly,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN242_PickACustomer_ShippingOnly,"3,702","3,702","3,702",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,5.21,31.7,305.1,107,61,57,-,-,-,-,-,-
+SCN242_PickACustomer_ShippingOnly_delay,5,5,5,108,0,0,5.01,5.01,5.01,0.003,5,-
+SCN242_PickACustomer_ShippingOnly,0.211,26.7,300,107,61,57,5.16,300.3,300.3,83.3,11,-
+transaction,0.001,0.001,0.004,107,0,0,0.002,0.002,0.004,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN295_AddPartyContactMethods_Shipping_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN295_AddPartyContactMethods_Shipping_CAM,"3,567","3,567","3,567",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,3.43,6.7,114.2,532,4,0.8,-,-,-,-,-,-
+SCN295_AddPartyContactMethods_Shipping_CAM_delay,3,3,3.02,532,0,0,3,3,3,0.002,3,-
+SCN295_AddPartyContactMethods_Shipping_CAM,0.432,3.7,111.2,532,4,0.8,3.66,4.55,8.09,7.63,3.06,-
+transaction,0,0.001,0.003,532,0,0,0.002,0.002,0.003,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN298_Search_Person_Search_by_Email_US_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN298_Search_Person_Search_by_Email_US_CAM,"3,721","3,721","3,721",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,15.2,41,316.7,83,8,9.6,-,-,-,-,-,-
+SCN298_Search_Person_Search_by_Email_US_CAM_delay,15,15,16.6,84,0,0,15,15,16.6,0.18,0,-
+SCN298_Search_Person_Search_by_Email_US_CAM,0.215,26,300,83,8,9.6,3.4,300.3,300.3,83.7,8.89,-
+transaction,0,0,0,83,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN334_PickACustomer_FNLN_CustNum_AUT_PrimaryBill_Address_Json,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN334_PickACust...NLN_CustNum_AUT_PrimaryBill_Address_Json,"3,593","3,593","3,593",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,10.05,10.13,12.8,354,354,100,-,-,-,-,-,-
+SCN334_PickA...stNum_AUT_PrimaryBill_Address_Json_delay,10,10.01,12.6,354,0,0,10,10,10.1,0.14,0,-
+SCN334_PickA...NLN_CustNum_AUT_PrimaryBill_Address_Json,0.046,0.121,1.65,354,354,100,0.189,0.289,0.875,0.163,0.095,-
+transaction,0,0,0.001,354,0,0,<0.01,<0.01,0.001,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN335_PickACustomer_FNLN_CustNum_AUT_SecondaryBill_Address_Json,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN335_PickACust...N_CustNum_AUT_SecondaryBill_Address_Json,"3,594","3,594","3,594",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,10.05,10.13,13.1,354,354,100,-,-,-,-,-,-
+SCN335_PickA...Num_AUT_SecondaryBill_Address_Json_delay,10,10.01,11.3,354,0,0,10,10,10.08,0.078,0,-
+SCN335_PickA...N_CustNum_AUT_SecondaryBill_Address_Json,0.046,0.12,3.06,354,354,100,0.168,0.281,1.07,0.207,0.091,-
+transaction,0,0,0.001,354,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN336_PickACustomer_FNLN_CustNum_AUT_SecondaryBill_Address_DBHasNoPhone_Json,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN336_PickACust..._SecondaryBill_Address_DBHasNoPhone_Json,"3,595","3,595","3,595",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,10.05,10.15,11.8,354,354,100,-,-,-,-,-,-
+SCN336_PickA...daryBill_Address_DBHasNoPhone_Json_delay,10,10.01,11.3,354,0,0,10,10,10.04,0.07,0,-
+SCN336_PickA..._SecondaryBill_Address_DBHasNoPhone_Json,0.046,0.141,1.83,354,354,100,0.218,0.324,1.5,0.207,0.107,-
+transaction,0,0,0,354,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN353_CreateCustomerWithUCID_US,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN353_CreateCustomerWithUCID_US,"3,582","3,582","3,582",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,6.67,10,130.5,357,2,0.6,-,-,-,-,-,-
+SCN353_CreateCustomerWithUCID_US_delay,6,6,6,358,0,0,6,6,6,0,0,-
+SCN353_CreateCustomerWithUCID_US,0.664,4,124.5,357,2,0.6,4.4,5.57,24,10.6,2.89,-
+transaction,0,0,0.001,357,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN354_CreateCustomerWithUCID_EMEA,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN354_CreateCustomerWithUCID_EMEA,"3,563","3,563","3,563",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,6.48,7.49,126.8,475,7,1.5,-,-,-,-,-,-
+SCN354_CreateCustomerWithUCID_EMEA_delay,6,6,6,475,0,0,6,6,6,0,0,-
+SCN354_CreateCustomerWithUCID_EMEA,0.478,1.49,120.8,475,7,1.5,1.16,1.56,15.8,7.9,0.781,-
+transaction,0,0,0.001,475,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN355_CreateCustomerWithUCID_APJ,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN355_CreateCustomerWithUCID_APJ,"3,571","3,571","3,571",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,6.46,7.32,126.6,487,7,1.4,-,-,-,-,-,-
+SCN355_CreateCustomerWithUCID_APJ_delay,6,6,6.01,487,0,0,6,6,6,<0.01,0,-
+SCN355_CreateCustomerWithUCID_APJ,0.459,1.32,120.6,487,7,1.4,1.06,1.49,4.4,7.69,0.742,-
+transaction,0,0,0.001,487,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN358_GetUcidStatus_Single_CustInfo_Json,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN358_GetUcidStatus_Single_CustInfo_Json,"3,513","3,513","3,513",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.762,0.819,9.21,"4,286","1,717",40.1,-,-,-,-,-,-
+SCN358_GetUcidStatus_Single_CustInfo_Json_delay,0.75,0.753,3.41,"4,286",0,0,0.751,0.752,0.801,0.054,0.75,-
+SCN358_GetUcidStatus_Single_CustInfo_Json,0.012,0.066,8.46,"4,286","1,717",40.1,0.097,0.173,0.619,0.19,0.046,-
+transaction,0,0,0.001,"4,286",0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN362_GetCustomer_30max_CAM,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN362_GetCustomer_30max_CAM,"3,505","3,694","3,883",2,2,100,-,-,-,-,-,-
+Init,0,0,0,2,0,0,-,-,-,-,-,-
+Actions,1.94,32.3,302.3,219,19,8.7,-,-,-,-,-,-
+SCN362_GetCustomer_30max_CAM_delay,1,1,1.04,221,0,0,1,1,1,0.002,1,-
+SCN362_GetCustomer_30max_CAM,0.936,31.3,301.3,219,19,8.7,35.4,300.3,300.3,83.3,17.9,-
+transaction,0.004,0.024,1.42,219,0,0,0.028,0.03,0.049,0.095,0.017,-
+End,0,0,0,2,0,0,-,-,-,-,-,-
+SCN381_GetNotes,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN381_GetNotes,"3,597","3,597","3,597",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,5.25,23.7,306.3,152,9,5.9,-,-,-,-,-,-
+SCN381_GetNotes_delay,5,5,5.06,152,0,0,5.01,5.01,5.04,0.008,5,-
+SCN381_GetNotes,0.248,18.6,301.3,152,9,5.9,2.72,300.3,300.3,70.9,3.15,-
+transaction,0,0,0,152,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN456_GetCustomer_CAM_AUT_Bill_Shipping_DB,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN456_GetCustomer_CAM_AUT_Bill_Shipping_DB,"3,652","3,652","3,652",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.21,15.9,301.1,211,29,13.7,-,-,-,-,-,-
+SCN456_GetCustomer_CAM_AUT_Bill_Shipping_DB_delay,1,1,1,212,0,0,1,1,1,<0.01,1,-
+SCN456_GetCustomer_CAM_AUT_Bill_Shipping_DB,0.206,14.9,300.1,211,29,13.7,1.1,28.8,300.3,63.8,0.569,-
+transaction,0,0.001,0.005,211,0,0,0.002,0.002,0.003,<0.01,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN457_GetCustomer_CAM_AUT_Owner_Creditor_DB,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN457_GetCustomer_CAM_AUT_Owner_Creditor_DB,"3,872","3,872","3,872",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.19,19.8,301,180,82,45.6,-,-,-,-,-,-
+SCN457_GetCustomer_CAM_AUT_Owner_Creditor_DB_delay,1,1,1,181,0,0,1,1,1,<0.01,1,-
+SCN457_GetCustomer_CAM_AUT_Owner_Creditor_DB,0.188,18.8,300,180,82,45.6,0.87,300.3,300.3,72,4.22,-
+transaction,0,0.001,0.042,180,0,0,0.002,0.002,0.004,0.003,0.001,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN457_GetCustomer_FiveCustomer_Creditor_Owner,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN457_GetCustomer_FiveCustomer_Creditor_Owner,"3,887","3,887","3,887",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.18,20.7,302.3,173,87,50.3,-,-,-,-,-,-
+SCN457_GetCustomer_FiveCustomer_Creditor_Owner_delay,1,1,1.01,174,0,0,1,1,1.01,0.002,1,-
+SCN457_GetCustomer_FiveCustomer_Creditor_Owner,0.179,19.7,301.3,173,87,50.3,1.54,300.3,300.3,73.4,4.55,-
+transaction,0,0,0,173,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN457_GetCustomer_FourCustomer_Creditor_Owner,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN457_GetCustomer_FourCustomer_Creditor_Owner,"3,613","3,613","3,613",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.2,17.2,302.3,193,84,43.5,-,-,-,-,-,-
+SCN457_GetCustomer_FourCustomer_Creditor_Owner_delay,1,1.01,1.78,194,0,0,1,1,1.72,0.076,1,-
+SCN457_GetCustomer_FourCustomer_Creditor_Owner,0.196,16.2,301.3,193,84,43.5,1.07,300.3,300.3,66.6,0.653,-
+transaction,0,0,0.001,193,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN457_GetCustomer_TenCustomer_Creditor_Owner,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN457_GetCustomer_TenCustomer_Creditor_Owner,"3,615","3,615","3,615",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.2,28.8,302.3,115,59,51.3,-,-,-,-,-,-
+SCN457_GetCustomer_TenCustomer_Creditor_Owner_delay,1,1,1.09,116,0,0,1,1,1.08,0.013,1,-
+SCN457_GetCustomer_TenCustomer_Creditor_Owner,0.199,27.8,301.3,115,59,51.3,4.06,300.3,300.3,84.5,13.4,-
+transaction,0,0,0.001,115,0,0,<0.01,<0.01,<0.01,<0.01,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN457_GetCustomer_ThreeCustomer_Creditor_Owner,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN457_GetCustomer_ThreeCustomer_Creditor_Owner,"3,878","3,878","3,878",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.19,10.31,303.2,347,155,44.7,-,-,-,-,-,-
+SCN457_GetCustomer_ThreeCustomer_Creditor_Owner_delay,1,1,1.87,348,0,0,1,1,1.06,0.049,1,-
+SCN457_GetCustomer_ThreeCustomer_Creditor_Owner,0.191,9.3,302.2,347,155,44.7,0.792,1.49,300.3,50.4,0.434,-
+transaction,0,0,0,347,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN457_GetCustomer_TwoCustomer_Creditor_Owner,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN457_GetCustomer_TwoCustomer_Creditor_Owner,"3,838","3,838","3,838",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,1.2,23,302.3,154,69,44.8,-,-,-,-,-,-
+SCN457_GetCustomer_TwoCustomer_Creditor_Owner_delay,1,1,1.06,155,0,0,1,1,1.05,0.008,1,-
+SCN457_GetCustomer_TwoCustomer_Creditor_Owner,0.197,22,301.3,154,69,44.8,1.41,300.3,300.3,77.5,7.05,-
+transaction,0,0,0,154,0,0,<0.01,<0.01,<0.01,0,0,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN466_GetCustomer_Multiple_AUT_DB,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN466_GetCustomer_Multiple_AUT_DB,"3,770","3,770","3,770",1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.754,20.7,300.6,168,11,6.5,-,-,-,-,-,-
+SCN466_GetCustomer_Multiple_AUT_DB_delay,0.5,0.518,3.35,169,0,0,0.501,0.503,0.54,0.219,0.5,-
+SCN466_GetCustomer_Multiple_AUT_DB,0.25,20.1,300.1,168,11,6.5,1.18,300.3,300.3,74.4,4.5,-
+transaction,0.002,0.006,0.14,168,0,0,0.006,0.007,0.09,0.015,0.004,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN_0001_GET_Contacts_US_Customer_Account_Microservices,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN_0001_GET_Contacts_US_Customer_Account_Microservices,130.5,130.5,130.5,1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.014,0.038,4.17,"3,393","3,393",100,-,-,-,-,-,-
+SCN0001_GET_..._US_Customer_Account_Microservices_delay,0,0,0,"3,393",0,0,<0.01,<0.01,<0.01,0,0,-
+SCN0001_GET_Contacts_US_Customer_Account_Microservices,0.014,0.038,4.17,"3,393","3,393",100,0.038,0.06,0.408,0.137,0.024,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN_0004_GET_Contacts_CamlocationID_US_Customer_Account_Microservices,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN_0004_GET_Con...tionID_US_Customer_Account_Microservices,127.6,127.6,127.6,1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.014,0.037,3.03,"3,396","3,396",100,-,-,-,-,-,-
+SCN0004_GET_..._US_Customer_Account_Microservices_delay,0,0,0,"3,396",0,0,<0.01,<0.01,<0.01,0,0,-
+SCN0004_GET_...tionID_US_Customer_Account_Microservices,0.014,0.037,3.03,"3,396","3,396",100,0.038,0.064,0.432,0.111,0.024,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN_0007_GET_Customers_US_Customer_Account_Microservices,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN_0007_GET_Customers_US_Customer_Account_Microservices,124.4,124.4,124.4,1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.014,0.036,1.69,"3,401","3,401",100,-,-,-,-,-,-
+SCN0007_GET_..._US_Customer_Account_Microservices_delay,0,0,0,"3,401",0,0,<0.01,<0.01,<0.01,0,0,-
+SCN0007_GET_Customers_US_Customer_Account_Microservices,0.014,0.036,1.69,"3,401","3,401",100,0.039,0.056,0.371,0.099,0.024,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN_0010_GET_Site_US_include_Contacts_false_Customer_Account_Microservices,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN_0010_GET_Sit...cts_false_Customer_Account_Microservices,130.2,130.2,130.2,1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.015,0.038,3.05,"3,394","3,394",100,-,-,-,-,-,-
+SCN0010_GET_...lse_Customer_Account_Microservices_delay,0,0,0,"3,394",0,0,<0.01,<0.01,<0.01,0,0,-
+SCN0010_GET_...cts_false_Customer_Account_Microservices,0.015,0.038,3.05,"3,394","3,394",100,0.04,0.056,0.416,0.128,0.024,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN_0011_GET_Site_US_include_ContactS_True_Customer_Account_Microservices,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN_0011_GET_Sit...actS_True_Customer_Account_Microservices,125.6,125.6,125.6,1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.015,0.036,1.66,"3,398","3,398",100,-,-,-,-,-,-
+SCN0011_GET_...rue_Customer_Account_Microservices_delay,0,0,0,"3,398",0,0,<0.01,<0.01,<0.01,0,0,-
+SCN0011_GET_...actS_True_Customer_Account_Microservices,0.015,0.036,1.66,"3,398","3,398",100,0.04,0.061,0.417,0.097,0.024,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN_0017_GET_Site_SiteID_US_Customer_Account_Microservices,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN_0017_GET_Site_SiteID_US_Customer_Account_Microservices,129.1,129.1,129.1,1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.014,0.038,3.02,"3,393","3,393",100,-,-,-,-,-,-
+SCN0017_GET_..._US_Customer_Account_Microservices_delay,0,0,0,"3,393",0,0,<0.01,<0.01,<0.01,0,0,-
+SCN0017_GET_...SiteID_US_Customer_Account_Microservices,0.014,0.038,3.02,"3,393","3,393",100,0.039,0.056,0.422,0.124,0.024,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
+SCN_0030_GET_Contacts_Customer_Contactid_US_Account_Microservices,,,,,,,,,,,,
+,Min,Avg,Max,Count,Err,% of Err,Perc 90,Perc 95,Perc 99,Std Dev,Avg-90%,SLA Profile
+SCN_0030_GET_Con...tomer_Contactid_US_Account_Microservices,85.5,85.5,85.5,1,1,100,-,-,-,-,-,-
+Init,0,0,0,1,0,0,-,-,-,-,-,-
+Actions,0.015,0.025,1.02,"3,358","3,358",100,-,-,-,-,-,-
+SCN_0030_GET...Contactid_US_Account_Microservices_delay,0,0,0,"3,358",0,0,<0.01,<0.01,<0.01,0,0,-
+SCN_0030_GET...tomer_Contactid_US_Account_Microservices,0.015,0.025,1.02,"3,358","3,358",100,0.034,0.043,0.086,0.027,0.022,-
+End,0,0,0,1,0,0,-,-,-,-,-,-
